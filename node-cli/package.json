@@ -1,0 +1,16 @@
+{
+    "name": "node-cli",
+    "version": "1.0.0",
+    "description": "A Node.js client for interacting with Solana using Borsh serialization",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@solana/web3.js": "^1.41.3",
+        "borsh": "^0.7.0",
+        "bs58": "^6.0.0"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}

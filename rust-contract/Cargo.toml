@@ -1,0 +1,19 @@
+[package]
+name = "solana-helloworld"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+borsh = "0.9.3"
+borsh-derive = "0.9.3"
+solana-program = "1.15.6"
+
+[features]
+no-entrypoint = []
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+
+
+
